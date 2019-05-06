@@ -1,0 +1,15 @@
+.border-grey {
+    width: 500px;
+    margin: 0 auto;
+    border: 10px solid grey;
+}
+.block {
+    display: inline-block;
+    border-right: 1px solid lightgrey;
+    text-align: center;
+}
+.block:last-child {
+    border-right: none;
+}
+
+
