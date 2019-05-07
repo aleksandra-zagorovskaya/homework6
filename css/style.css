@@ -39,14 +39,17 @@ body{
 .hosting-name {
     color: orange; /*Цвет содержимого блока*/
     margin: 10px;/*Увеличение отступа от границ внутри блока*/
+    font-family: 'RobotoBold';/*Стиль Шрифта*/
 }
 .info {
     color: white;/*Цвет содержимого блока*/
     background-color: orange; /*Фон блока*/
     padding: 5px;/*Увеличение отступа внутри блока*/
     text-decoration: none;/*Отмена подчеркивания ссылок*/
+    font-family: "RobotoLight";/*Стиль Шрифта*/
 }
 .price {
     margin-bottom: 20px;/*Нижний отступ блока*/
+    font-family: "RobotoMedium";/*Стиль Шрифта*/
 }
 
