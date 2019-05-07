@@ -1,0 +1,52 @@
+body{
+    font-family: "Roboto", sans-serif;/*Подключение шрифта*/
+}
+.border-grey {
+    width: 600px;/*Ширина основного серого блока*/
+    background-color: grey;/*Фон блока*/
+    padding: 10px;/*Отступ блока*/
+    margin: 100px auto; /*Размещение блока на странице*/
+}
+.block-white {
+    background-color: white;/*Фон блока*/
+    border-radius: 10px;/*Округление внутренней границы*/
+    display: flex;/*Выравнивание элементов блока*/
+    padding: 15px;/*Увеличение отступа внутри блока*/
+}
+.block {
+    border-right: 1px solid lightgrey;/*Правая граница блоков*/
+    text-align: center;/*Выравнивание содержимого блоков по центру*/
+    width: 33.3%;/*Ширина блоков*/
+}
+.block:last-child {
+    border-right: none;/*Удаление границы крайнего блока*/
+}
+.img-hosting {
+    background-image: url(../images/hosting.png);/*фоновое изображение блока*/
+    width: 61px;/*Ширина блока*/
+    height: 42px;/*Высота блока*/
+    margin: 0 auto;/*Размещение блока по центу*/
+}
+.pic1 {
+    background-position:  0 0; /*положение изображения для 1 блока*/
+}
+.pic2 {
+    background-position: 0 -42px;/*положение изображения для 2 блока*/
+}
+.pic3 {
+    background-position: 0 -84px;/*положение изображения для 3 блока*/
+}
+.hosting-name {
+    color: orange; /*Цвет содержимого блока*/
+    margin: 10px;/*Увеличение отступа от границ внутри блока*/
+}
+.info {
+    color: white;/*Цвет содержимого блока*/
+    background-color: orange; /*Фон блока*/
+    padding: 5px;/*Увеличение отступа внутри блока*/
+    text-decoration: none;/*Отмена подчеркивания ссылок*/
+}
+.price {
+    margin-bottom: 20px;/*Нижний отступ блока*/
+}
+
